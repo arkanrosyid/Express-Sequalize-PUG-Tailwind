@@ -24,7 +24,7 @@
     "sequelize-cli": "^6.6.2"
   },
   "scripts": {
-    "dev": "npx pm2-dev index.js",
+    "dev": "npx pm2-dev pm2.config.js",
     "start": "npx pm2 start index.js",
     "build:css": "postcss src/css/tailwind.css -o public/css/styles.css",
     "watch:css": "postcss src/css/tailwind.css -o public/css/styles.css --watch",
