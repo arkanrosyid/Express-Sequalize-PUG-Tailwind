@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('src/core/db', 'config.json'), // Path to your database configuration file
+  'models-path': path.resolve(__dirname, 'src/models'), // Custom path for models
+  'migrations-path': path.resolve(__dirname, 'dev/sequlizeCLI/migrations'), // Default migrations path or custom if needed
+  'seeders-path': path.resolve(__dirname, 'dev/sequlizeCLI/seeders'), // Default seeders path or custom if needed
+};

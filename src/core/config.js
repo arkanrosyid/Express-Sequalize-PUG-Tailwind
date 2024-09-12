@@ -11,7 +11,7 @@ const envFilePath = process.env.NODE_ENV === 'production' ? '.env.prod' : '.env.
     DB_HOST: process.env.DB_HOST,
     DB_PORT: process.env.DB_PORT,
     ENVIRONMENT: process.env.APP_ENV,
-
+    JWT_KEY : process.env.JWT_SECRET,
     ACCESS_TOKEN_EXPIRATION_DURATION: process.env.ACCESS_TOKEN_EXPIRES_IN
 
   };
